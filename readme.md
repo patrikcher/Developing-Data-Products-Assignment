@@ -7,4 +7,4 @@ The dataset is used is from [Project Gutenburg] (http://www.gutenberg.org/). Pro
 
 The project demo can be found at [shinyapps.io] (http://patrickcher.shinyapps.io/Shakespeare_Word_Cloud).
 
-The Shiny slides can be found on [Dropbox] (https://dl.dropboxusercontent.com/u/3522703/mydeck/index.html).
+The Shiny slides can be found on [Dropbox] (http://patrikcher.github.io/DevDataProd-Slidify/index.html#1).
