@@ -60,6 +60,7 @@ getTermMatrix <- memoise(function(book) {
   # transform corpus by removing punctuation, numbers 
   # and stopwords that are provided by TM package
   wcCorpus = Corpus(VectorSource(text))
+  wcCorpus = tm_map(wcCorpus, stripWhitespace)
   wcCorpus = tm_map(wcCorpus, content_transformer(tolower))
   wcCorpus = tm_map(wcCorpus, removePunctuation)
   wcCorpus = tm_map(wcCorpus, removeNumbers)

@@ -5,7 +5,9 @@ function(input, output, session) {
   # define a reactive expression for the document term matrix
   terms <- reactive({
     # change main panel when the "update" button is pressed
+    
     input$update
+    
     isolate({
       withProgress({
         setProgress(message = "Processing corpus...")
